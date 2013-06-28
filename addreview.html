@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<title>7th Heaven</title>
+		<link rel="stylesheet" type="text/css" href="core.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 900px), only screen and (max-device-width: 900px)" href="tablet.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 600px), only screen and (max-device-width: 600px)" href="mobile.css" />
+	</head>
+
+	<body>
+	<div id ="home">
+		<header>
+			<nav>	
+				<ul>
+					<li id="logo"><a href="homepage.html"><img src="images/Logo.png" alt="company_logo"/></a></li>
+					<li><a href="about_us.html">About Us</a></li>
+					<li><a href="spa_packages.html">Spa Packages</a></li>
+					<li><a href="reviews.html">Reviews</a></li>
+					<li><a href="contact_info.html">Contact Info</a></li>
+					<li><a href="updates_events.html">Updates</a></li>
+					<li><a href="mypackages.html"><img id="package" src="images/MyPackages.png" alt="my_packages"/></a></li>
+				</ul>
+			</nav>
+		</header>
+	</div><!--end div home-->
+	
+	<div id="rightside">
+	<div id="content">
+
+	<h1 class="title">Add a review</h1>	
+
+
+	<div id="addreview">		
+	<form id="name" action="submitted.html">
+	Name:
+	<input id="name2" type="text" placeholder="John Smith" required autofocus size="35"/>
+	&nbsp;
+	E-mail:
+	<input id="email2" type="text" placeholder="johnsmith@gmail.com" required size="35"/>
+	<br>
+	
+	<div id="rating">
+	<p>Rating:</p>
+	
+	<ul>
+	
+	<li>
+	<input class="star" name="rating" type="radio" value="onestar"/>
+	<img src="images/0Star.png" height="50" alt="0star"/>
+	</li>
+	
+	<li>
+	<input class="star" name="rating" type="radio"/>
+	<img src="images/1Stars.png" height="50" alt="1star"/>
+	</li>
+	
+	<li>
+	<input class="star" name="rating" type="radio"/>
+	<img src="images/2Stars.png" height="50" alt="2stars"/>
+	</li>
+	
+	<li>
+	<input class="star" name="rating" type="radio"/>
+	<img src="images/3Stars.png" height="50" alt="3stars"/>	
+	</li>
+	
+	<li>
+	<input class="star" name="rating" type="radio"/>
+	<img src="images/4Stars.png" height="50" alt="4stars"/>
+	</li>
+	
+	<li>
+	<input class="star" name="rating" type="radio"/>
+	<img src="images/5Stars.png" height="50" alt="5stars"/>
+	</li>
+	
+	</ul>
+	
+	</div><!--end of div rating-->
+	<p>SPA Package:</p>
+	
+	<div id="categorychoice">
+	
+	<ul>
+	
+	<li><input name="category" type="radio"/>
+	Just for Brides
+	</li>
+	
+	<li>
+	<input name="category" type="radio"/>
+	For you & your Beloved
+	</li>
+	
+	<li>
+	<input name="category" type="radio"/>
+	Girls' Time
+	</li>
+	
+	<li>
+	<input name="category" type="radio"/>
+	 Customized Package
+	</li>
+	
+	</ul>
+	</div><!-- end of div category choice-->
+	
+	<div id="packagechoice">
+	
+	<ul>
+	<li>
+	<input name="package" type="radio"/>
+	Grand Package
+	</li>
+	
+	<li>
+	<input name="package" type="radio"/>
+	Royal Package
+	</li>
+	
+	<li>
+	<input name="package" type="radio"/>
+	Luxurious Package
+	</li>
+	</ul>
+	</div><!--end of div packagechoice-->
+	
+	<div id="commentpart">
+	<p>Write your review below:</p>
+	<textarea name="review" rows="20" cols="70" placeholder="Enter text here..." required></textarea> <br>
+	
+	<button type="submit"> Submit </button>
+	
+	</div><!--end of div commentpart-->
+	</form>
+	
+	
+	</div><!--end of div addreview-->
+	</div><!--end of div content-->
+	
+			
+	</div><!--end of div rightside-->
+
+</body>	
+</html>

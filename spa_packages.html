@@ -2,7 +2,9 @@
 <html>
   <head>
 		<title>7th Heaven</title>
-		<link rel="stylesheet" type="text/css" href="heaven.css" />
+		<link rel="stylesheet" type="text/css" href="core.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 900px), only screen and (max-device-width: 900px)" href="tablet.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 600px), only screen and (max-device-width: 600px)" href="mobile.css" />
 	</head>
 
 	<body>
@@ -10,24 +12,53 @@
 		<header>
 			<nav>	
 				<ul>
-					<li id="logo"><img src="images/Logo.png" alt="company_logo"/></li>
-					<li><a href="homepage.html">Welcome</a></li>
+					<li id="logo"><a href="homepage.html"><img src="images/Logo.png" alt="company_logo"/></a></li>
 					<li><a href="about_us.html">About Us</a></li>
 					<li><a href="spa_packages.html">Spa Packages</a></li>
-					<li><a href="updates_events.html">Updates & Events</a></li>
-					<li><a href="reviews.html">Reviews & Testimonials</a></li>
+					<li><a href="reviews.html">Reviews</a></li>
 					<li><a href="contact_info.html">Contact Info</a></li>
+					<li><a href="updates_events.html">Updates</a></li>
+					<li><a href="mypackages.html"><img id="package" src="images/MyPackages.png" alt="my_packages"/></a></li>
+				</ul>
 			</nav>
 		</header>
 	</div><!--end div home-->
 
+	<div id="rightside">
 	<div id="content">
-			<!--section class="first col"-->
-
 			<h1 class="title">Spa Packages</h1>
 			
-			<div id="stuff">
-				<p>We have a variety of spa packages that include aromatherapy, facials, massages, manicures and pedicures. We have categorized our spa packages in three categories : Just for Brides, For you & your Beloved, and Bridal Showers & Bachelorettes.
-				</p>
-			</div><!--end div stuff-->
+			<div id="main">
+				<p>We have a variety of spa packages that include aromatherapy, facials, massages, manicures and pedicures. We have categorized our spa packages in three categories:</p>
+			</div><!--end div main-->
+			
+			<div id="threecolumns"><!--Divs for categories-->			
+			<div class="column">
+					<ul>
+						<li><a href="justforbrides.html"><img class="imagehover" src="images/JustforBrides.png" alt="Just_for_Brides"/></a></li>
+						<li><a class="button" href="justforbrides.html">Just for Brides</a></li>
+					</ul>
+			</div><!--end of div leftcolumn-->
+			
+			<div class="column">
+					<ul>
+						<li><a href="beloved.html"><img class="imagehover"  src="images/Beloved.png" alt="Beloved"/></a></li>
+						<li><a class="button" href="beloved.html">For you & your Beloved</a></li>
+					</ul>	
+			</div><!-- end of div middlecolumn-->
+			
+			<div class="column">
+					<ul>
+						<li><a href="bridal.html"><img class="imagehover"  src="images/Girls.png" alt="Girls"/></a></li>
+						<li><a class="button" href="bridal.html">Girls' Time</a></li>
+					</ul>	
+			</div><!-- end of div rightcolumn-->
+			
+			</div><!-- end of threecolumns-->
+			
 	</div> <!-- end div content -->
+	</div><!--end div rightside-->
+	
+		
+</body>
+</html>

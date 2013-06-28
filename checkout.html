@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<title>7th Heaven</title>
+		<link rel="stylesheet" type="text/css" href="core.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 900px), only screen and (max-device-width: 900px)" href="tablet.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 600px), only screen and (max-device-width: 600px)" href="mobile.css" />
+	</head>
+
+	<body>
+	<div id ="home">
+		<header>
+			<nav>	
+				<ul>
+					<li id="logo"><a href="homepage.html"><img src="images/Logo.png" alt="company_logo"/></a></li>
+					<li><a href="about_us.html">About Us</a></li>
+					<li><a href="spa_packages.html">Spa Packages</a></li>
+					<li><a href="reviews.html">Reviews</a></li>
+					<li><a href="contact_info.html">Contact Info</a></li>
+					<li><a href="updates_events.html">Updates</a></li>
+					<li><a href="mypackages.html"><img id="package" src="images/MyPackages.png" alt="my_packages"/></a></li>
+				</ul>
+			</nav>
+		</header>
+	</div><!--end div home-->
+	
+	<div id="rightside">
+	<div id="content">
+		<h1 class="title">Checkout</h1>
+	
+	<div id="checkout">
+	<form id="payment" action="success.html">
+		
+		<div id="billing">
+		<p class="paymenttitle">Billing Information</p>
+		
+		<p><label for="name">Name</label>
+		<br>
+			<input id="name" name="name" type="text" size=80 placeholder="John Smith" required autofocus />
+		</p>
+	
+		<p><label for="name">Address</label>
+			<br>
+			<input id="address" name="name" type="text" size=80 placeholder="100 Lovely Street" required />
+		</p>
+		<p><label for="name">City</label>
+			<br>
+			<input id="city" name="name" type="text" size=80 placeholder="Dawson Creek" required />
+		</p>
+		
+		<p><label for="name">Country</label>
+			<br>
+			<input id="country" name="name" type="text" size=80 placeholder="Canada" required />
+		</p>
+		
+		<p><label for="name">Province/State</label>
+			<br>
+			<input id="province" name="name" type="text" size=80 placeholder="British Columbia" required />
+		</p>
+		
+		<p><label for="name">Postal Code/Zip</label>
+			<br>
+			<input id="postal" name="name" type="text" size=80 placeholder="T9M 5P1" required />
+		</p>
+		
+		<p><label for="name">Phone</label>
+			<br>
+			<input id="phone" name="name" type="text" size=80 placeholder="778-920-1923" required />
+		</p>
+		
+		<p><label for="name">Email</label>
+			<br>
+			<input id="email" name="name" type="text" size=80 placeholder="johnsmith@gmail.com" required />
+		</p>
+		
+		</div><!--end div billing-->
+	
+		
+		<div id="details">
+		<p class="paymenttitle">Credit Card Details</p>
+		<p><label for="name">Cardholder Name</label>
+			<input id="cardholdername" name="name" type="text" size=42 placeholder="John Smith" required />
+		</p>
+		
+		<p><label for="name">Card Number</label>
+			<input id="cardnumber" name="name" type="text" size=42 placeholder="30134" required />
+		</p>
+		
+		<p><label for="name">Card Number</label>
+			<select name="cardtype">
+			<option value="Visa">Visa</option>
+			<option value="MasterCard">MasterCard</option>
+			<option value="AmericanExpress">American Express</option>
+			</select>
+		</p>
+		<p><label for="name">Expiration date</label>
+			<input id="expiration" name="name" type="text" placeholder="08/13" required />
+		</p>
+		
+		<p><label for="name">CVC</label>
+			<input id="CVC" name="name" type="text" placeholder="790" required />
+		</p>
+		</div><!--end div details-->
+		
+
+	<p class="submitbutton">
+		<button type="submit" >Submit</button>
+	</p>
+	</form>
+	
+	</div><!--end of div checkout-->
+	</div><!--end of div content-->
+	</div><!--end div rightside-->
+	
+</body>
+</html>
